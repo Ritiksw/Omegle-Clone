@@ -10,6 +10,13 @@ body {
 }
 header {
   height: 13vh;
+  padding:  10px;
+
+}
+header, .panel, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .disclaimer-bar {
   background-color: red;
