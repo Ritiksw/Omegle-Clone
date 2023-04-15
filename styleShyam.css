@@ -1,7 +1,50 @@
-
-body{
-    background-color: rgb(35, 35, 35)
+@import url("./res.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.main-container{
-    padding-top: 15vh;
+body {
+  background-color: rgb(35, 35, 35);
+  color: whitesmoke;
+}
+header {
+  height: 13vh;
+}
+.disclaimer-bar {
+  background-color: red;
+  display: flex;
+  height: 3vh;
+  /* padding: 50px; */
+}
+.main-container {
+  height: 78vh;
+  padding: 10px;
+  /* padding-top: 0; */
+  /* margin-top: 15vh; */
+  background-color: whitesmoke;
+  color: black;
+  
+  display: grid;
+  grid-template-columns: 5fr 2.5fr;
+  grid-template-rows: 8fr 2fr;
+  gap: 10px;
+}
+.panel {
+  /* margin: 10px; */
+  background-color: rgb(190, 189, 189);
+  border-radius: 20px;
+  padding: 20px;
+}
+.video-section{
+  grid-row: 1;
+  grid-column: 1;
+}
+.chat-section{
+  grid-row: 1/3;
+}
+
+
+footer {
+  height: 6vh;
 }
